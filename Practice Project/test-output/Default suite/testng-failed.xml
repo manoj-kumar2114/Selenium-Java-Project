@@ -7,7 +7,15 @@
         <methods>
           <include name="verifyCompareusTab"/>
           <include name="verifyURLLaunch"/>
+          <include name="LoginwithInvalidCredential"/>
+          <include name="dropdownMenu"/>
+          <include name="contactus"/>
+          <include name="URL"/>
+          <include name="Join"/>
           <include name="VerifySearchbox"/>
+          <include name="Alert"/>
+          <include name="createpath"/>
+          <include name="closebrowser"/>
         </methods>
       </class> <!-- extRepScrShot -->
     </classes>

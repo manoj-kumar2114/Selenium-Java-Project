@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test parallel="none" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
       <class name="extRepScrShot">
         <methods>
           <include name="verifyCompareusTab"/>
-          <include name="verifyURLLaunch"/>
-          <include name="LoginwithInvalidCredential"/>
           <include name="dropdownMenu"/>
           <include name="contactus"/>
           <include name="URL"/>
-          <include name="Join"/>
           <include name="VerifySearchbox"/>
           <include name="Alert"/>
           <include name="createpath"/>
@@ -19,5 +16,5 @@
         </methods>
       </class> <!-- extRepScrShot -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
